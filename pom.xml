@@ -12,7 +12,7 @@
 	<artifactId>licenta</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>licenta</name>
-	<description>proiectul de licenta</description>
+	<description>Proiectul de licenta</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -29,10 +29,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web-services</artifactId>
+		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
