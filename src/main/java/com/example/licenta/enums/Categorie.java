@@ -12,5 +12,19 @@ public enum Categorie {
         this.cod = cod;
     }
 
+    public String getDisplay() {
+        return display;
+    }
 
+    public void setDisplay(String display) {
+        this.display = display;
+    }
+
+    public int getCod() {
+        return cod;
+    }
+
+    public void setCod(int cod) {
+        this.cod = cod;
+    }
 }

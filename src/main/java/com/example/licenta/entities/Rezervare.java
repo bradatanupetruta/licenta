@@ -7,7 +7,8 @@ public class Rezervare {
     private int numarPersoane;
     private String dataRezervare;
     private String oraRezervare;
-    //private String numarTelefon;
+    private String numarTelefon;
+    private String informatii;
 
     public int getIdRezervare() {
         return idRezervare;
@@ -47,6 +48,22 @@ public class Rezervare {
 
     public void setOraRezervare(String oraRezervare) {
         this.oraRezervare = oraRezervare;
+    }
+
+    public String getNumarTelefon() {
+        return numarTelefon;
+    }
+
+    public void setNumarTelefon(String numarTelefon) {
+        this.numarTelefon = numarTelefon;
+    }
+
+    public String getInformatii() {
+        return informatii;
+    }
+
+    public void setInformatii(String informatii) {
+        this.informatii = informatii;
     }
 
     //as pune si tipul de eveniment, gen nimic, zi de nastere, aniversare etc

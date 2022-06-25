@@ -1,5 +1,7 @@
 package com.example.licenta.entities;
 
+import com.example.licenta.enums.Rol;
+
 import javax.persistence.Id;
 import java.util.Date;
 import java.util.List;
@@ -12,7 +14,7 @@ public class Angajat {
     private String prenume;
     private Date dataNastere;
     private Date dataAngajare;
-    //private List<Role> roluri;
+    private Rol rol;
 
     public int getId() {
         return id;
@@ -48,5 +50,13 @@ public class Angajat {
 
     public void setDataAngajare(Date dataAngajare) {
         this.dataAngajare = dataAngajare;
+    }
+
+    public Rol getRol() {
+        return rol;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
     }
 }

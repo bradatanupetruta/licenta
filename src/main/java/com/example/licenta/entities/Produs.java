@@ -12,7 +12,18 @@ public class Produs {
     private int cantitate;
     private Categorie categorie;
     private String informatii;
-    private String id_imagine;
+    private String idImagine;
+
+    public Produs(int id, String denumire, float stoc, float pret, int cantitate, Categorie categorie, String informatii, String idImagine) {
+        this.id = id;
+        this.denumire = denumire;
+        this.stoc = stoc;
+        this.pret = pret;
+        this.cantitate = cantitate;
+        this.categorie = categorie;
+        this.informatii = informatii;
+        this.idImagine = idImagine;
+    }
 
     public int getId() {
         return id;
@@ -52,4 +63,3 @@ public class Produs {
 }
 
 
-//categorieProdus, detalii?
